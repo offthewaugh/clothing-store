@@ -161,6 +161,23 @@ i {
   border-bottom: 1px solid black;
   display: flex;
 }
+@media (max-width: 1000px) {
+  .clothes {
+    grid-template-columns: repeat(2, 300px);
+  }
+  .clothes img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .clothes {
+    grid-template-columns: repeat(1, 300px);
+  }
+  .clothes img {
+    width: 200px;
+  }
+}
 footer {
   text-align: center;
   border-top: 1px black solid;

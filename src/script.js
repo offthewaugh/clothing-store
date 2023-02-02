@@ -9,16 +9,16 @@ let about = document.getElementById("about");
 
 let cart = JSON.parse(localStorage.getItem("data")) || [];
 
-let generateAbout = () => {
-  return (about.innerHTML = `
-    <footer>
-    <h3>Contact:</h3>
-    <p>Email: chriswaugh.contact@gmail.com</p>
-    <p>Mobile: 513-926-6094</p>
-    <p></p>
-  </footer>
-  `);
-};
+// let generateAbout = () => {
+//   return (about.innerHTML = `
+//     <footer>
+//     <h3>Contact:</h3>
+//     <p>Email: chriswaugh.contact@gmail.com</p>
+//     <p>Mobile: 513-926-6094</p>
+//     <p></p>
+//   </footer>
+//   `);
+// };
 let generateItems = () => {
   return (clothes.innerHTML = itemDetails
     .map((x) => {
@@ -53,7 +53,7 @@ let generateItems = () => {
 };
 
 generateItems();
-generateAbout();
+// generateAbout();
 
 let plusButton = (id) => {
   let selectedItem = id;

@@ -177,8 +177,8 @@ let checkout = () => {
   total();
   shoppingCart.innerHTML = ``;
   label.innerHTML = `<h2>Thanks for shopping with us, Please come again!<h2>
-  <a href="index.html">
-  <button class="HomeBtn">Back to Home</button>
+  <a href="clothing.html">
+  <button class="HomeBtn">Back to Store</button>
   </a>
   `;
   cart = [];

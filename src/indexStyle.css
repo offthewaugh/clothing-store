@@ -12,7 +12,7 @@
 
 .images-container p {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 42%;
   transform: translate(-30%, 42%);
   color: white;
@@ -20,9 +20,9 @@
 }
 .image-home-button {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-60%, 50%);
 }
 
 .image-home-button button {

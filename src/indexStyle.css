@@ -34,9 +34,9 @@
 }
 
 @media (max-width: 500px) {
-  .images-container {
+  /* .images-container {
     background-size: 100% auto;
-  }
+  } */
   .clothes img {
     width: 200px;
   }

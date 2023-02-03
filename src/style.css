@@ -96,7 +96,7 @@ button {
   height: 500px;
   background-image: url(../images/car-model-pic.jpg);
   background-size: 100% 500px;
-  margin: 0 200px;
+  margin: 0 150px;
   margin-bottom: 40px;
   animation: slide 10s infinite;
 }
@@ -183,6 +183,18 @@ i {
   .clothes img {
     width: 200px;
   }
+  .clothing-images {
+    background-size: 100% 400px;
+    height: 400px;
+    margin: 0 100px;
+  }
+}
+@media (max-width: 750px) {
+  .clothing-images {
+    background-size: 100% 400px;
+    height: 400px;
+    margin: 0 50px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -191,6 +203,11 @@ i {
   }
   .clothes img {
     width: 200px;
+  }
+  .clothing-images {
+    background-size: 100% 400px;
+    height: 400px;
+    margin: 0 10px;
   }
 }
 footer {

@@ -35,7 +35,7 @@
 
 @media (max-width: 500px) {
   .images-container {
-    background-size: 100%;
+    background-size: 100% 400px;
     height: 400px;
   }
   .clothes img {
